@@ -6,9 +6,9 @@ DEFAULT_NODE_HOST = 'localhost'
 RPC_TIMEOUT = 0.2
 
 # Configurações de Heartbeat e Detecção de Falhas
-HEARTBEAT_INTERVAL = 30  # Envia heartbeat a cada 30 segundos
+HEARTBEAT_INTERVAL = 9999  # Envia heartbeat a cada 30 segundos
 HEARTBEAT_JITTER = 10  # Variação aleatória (30-40s)
-HEARTBEAT_TIMEOUT = 60  # Remove peer após 60 segundos sem resposta
+HEARTBEAT_TIMEOUT = 99999  # Remove peer após 60 segundos sem resposta
 HEARTBEAT_CHECK_INTERVAL = 10  # Verifica timeouts a cada 10s
 MAX_MISSED_HEARTBEATS = 2  # Marca como suspeito após 2 heartbeats
 

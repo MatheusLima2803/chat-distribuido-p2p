@@ -543,7 +543,7 @@ class NodeManager:
             return {}
         
         try:
-            bootstrap_conn = rpyc.connect(BOOTSTRAP_HOST, BOOTSTRAP_PORT)
+            bootstrap_conn = rpyc.connect(BOOTSTRAP_HOST, BOOTSTRAP_PORT, config={"timeout": 60})
             initial_peers = bootstrap_conn.root.exposed_get_initial_peers()
             peers_dict = {}
             if initial_peers:
@@ -567,7 +567,7 @@ class NodeManager:
         bootstrap_id = 'bootstrap'
         bootstrap_connected = False
         try:
-            conn = rpyc.connect(BOOTSTRAP_HOST, BOOTSTRAP_PORT)
+            conn = rpyc.connect(BOOTSTRAP_HOST, BOOTSTRAP_PORT, config={"timeout": 60})
             conn.root.exposed_receive_join(
                 node_id=self.node_id,
                 host=self.host,
