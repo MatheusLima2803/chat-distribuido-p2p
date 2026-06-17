@@ -1,10 +1,10 @@
-# 💬 Chat Distribuído Peer-to-Peer (P2P)
+# Chat Distribuído Peer-to-Peer (P2P)
 
 Sistema distribuído de chat peer-to-peer desenvolvido em Python com comunicação via RPC, replicação de histórico, tolerância a falhas e ordenação consistente de mensagens.
 
 O projeto explora conceitos fundamentais de Sistemas Distribuídos, incluindo relógios lógicos de Lamport, eleição de líder pelo algoritmo Bully, replicação de dados, heartbeats, descoberta dinâmica de nós e coordenação entre processos distribuídos.
 
-## 📸 Demonstração
+## Demonstração
 
 ### Interface do Sistema
 
@@ -16,7 +16,7 @@ O projeto explora conceitos fundamentais de Sistemas Distribuídos, incluindo re
 
 ---
 
-## 🚀 Principais Funcionalidades
+## Principais Funcionalidades
 
 * Comunicação Peer-to-Peer (P2P)
 * Descoberta dinâmica de nós
@@ -30,7 +30,7 @@ O projeto explora conceitos fundamentais de Sistemas Distribuídos, incluindo re
 
 ---
 
-## 🏗️ Arquiteturas Implementadas
+## Arquiteturas Implementadas
 
 ### Parte 1 — Ordenação Total (Relógios de Lamport)
 
@@ -57,7 +57,7 @@ Implementação baseada em coordenação centralizada através de um líder resp
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * Python
 * RPyC (Remote Procedure Calls)
@@ -68,7 +68,7 @@ Implementação baseada em coordenação centralizada através de um líder resp
 
 ---
 
-## 📊 Resultados Obtidos
+## Resultados Obtidos
 
 | Cenário                | Tempo Médio |
 | ---------------------- | ----------- |
@@ -79,7 +79,7 @@ O sistema atendeu com ampla margem os requisitos acadêmicos de estabilidade, co
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 src/
@@ -92,7 +92,7 @@ src/
 
 ---
 
-## ⚙️ Como Executar
+## Como Executar
 
 Instalar dependências:
 
@@ -124,7 +124,7 @@ python client_ui.py --username Bob --node-port 5679
 
 ---
 
-## 🎓 Contexto Acadêmico
+## Contexto Acadêmico
 
 Projeto Final da disciplina Sistemas Distribuídos.
 
