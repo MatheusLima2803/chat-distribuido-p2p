@@ -4,18 +4,6 @@ Sistema distribuído de chat peer-to-peer desenvolvido em Python com comunicaç�
 
 O projeto explora conceitos fundamentais de Sistemas Distribuídos, incluindo relógios lógicos de Lamport, eleição de líder pelo algoritmo Bully, replicação de dados, heartbeats, descoberta dinâmica de nós e coordenação entre processos distribuídos.
 
-## Demonstração
-
-### Interface do Sistema
-
-![Tela Principal](images/tela-principal.png)
-
-### Comunicação entre Nós
-
-![Logs do Sistema](images/logs-distribuidos.png)
-
----
-
 ## Principais Funcionalidades
 
 * Comunicação Peer-to-Peer (P2P)
@@ -28,7 +16,6 @@ O projeto explora conceitos fundamentais de Sistemas Distribuídos, incluindo re
 * Eleição automática de líder
 * Ordenação total de mensagens
 
----
 
 ## Arquiteturas Implementadas
 
